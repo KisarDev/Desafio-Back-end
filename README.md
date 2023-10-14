@@ -1,5 +1,5 @@
 # Desafio-Back-end
-Fui convidado a participar de um desafio de desenvolvimento, para mais detalhe acesse o README.
+Fui convidado a participar de um desafio de desenvolvimento.
 
 # Desafio Técnico - Sistema de Gerenciamento de Ordens de Produção para uma Fábrica
 ### Você foi designado para criar um sistema de gerenciamento de ordens de produção para uma fábrica. Este sistema deve permitir que os usuários realizem as seguintes operações:
