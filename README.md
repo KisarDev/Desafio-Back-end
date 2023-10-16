@@ -1,6 +1,52 @@
 # Desafio-Back-end
 Fui convidado a participar de um desafio de desenvolvimento.
 
+
+
+# Sistema de Gerenciamento de Ordens de Produção
+
+## Introdução
+
+Este projeto é um sistema de gerenciamento de ordens de produção para uma fábrica, criado como parte de um desafio técnico. O sistema permite aos usuários realizar várias operações, como registrar novas ordens de produção, listar ordens existentes, verificar a disponibilidade de materiais, atualizar o status de uma ordem e gerar relatórios de produção.
+
+## Tecnologias Utilizadas
+
+- Linguagem de Programação: Python
+- Paradigma de Programação: Orientação a Objetos (POO)
+- Armazenamento de Dados: Banco de Dados SQLite
+- Interface: Linha de Comando (CLI)
+
+## Estrutura do Projeto
+
+O projeto é organizado em várias partes:
+
+- `main.py`: O arquivo principal que inicia o sistema e interage com o usuário.
+- `entities`: Contém as classes que definem os objetos principais, como `Fabrica`, `Produto` e `OrdemProducao`.
+- `utils`: Contém funções utilitárias, como a função para criar o banco de dados.
+- `fabrica.db`: O arquivo do banco de dados SQLite que armazena informações sobre produtos e ordens de produção.
+
+## Como Utilizar o Sistema
+
+Siga estas etapas para executar o sistema em sua máquina:
+
+1. Clone o repositório para a sua máquina local:
+   git clone https://github.com/KisarDev/Desafio-Back-end.git
+2. Navegue até o diretório do projeto
+3. Execute o arquivo `main.py`:
+   python main.py
+   ou
+   python3 main.py
+4. Você verá um menu de opções no terminal que permite registrar ordens de produção, listar ordens existentes, entre outras funcionalidades. Siga as instruções no terminal para interagir com o sistema.
+
+- certifique de ter o python instalado em sua maquina, certifique de estar no diretório do projeto.
+
+
+
+
+
+
+
+
 # Desafio Técnico - Sistema de Gerenciamento de Ordens de Produção para uma Fábrica
 ### Você foi designado para criar um sistema de gerenciamento de ordens de produção para uma fábrica. Este sistema deve permitir que os usuários realizem as seguintes operações:
 - 1.Registrar uma nova ordem de produção, especificando o produto a ser fabricado, a quantidade desejada e a data de entrega.
